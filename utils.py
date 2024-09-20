@@ -23,6 +23,7 @@ word_index_dict = {
 
 
 sample_review_1 = [19, 38, 60, 23, 54, 4, 49, 36]
+sample_review_2 = [9, 11, 13, 17, 21, 4, 22]
 
 
 def check_prime(x):
@@ -48,12 +49,6 @@ def first_N_primes(N):
     return primes
 
 
-print("First Five Prime Numbers are : ",first_N_primes(5))
-print("First Seven Prime Numbers are : ",first_N_primes(7))
-
-
-
-
 class Employees:
     def __init__(self, name, employee_id, position, salary, department):
         self.name = name
@@ -74,6 +69,7 @@ class Employees:
 
 
 E001 = Employees("John Doe", 101, "Software Engineer", 8000, "Development")
+E002 = Employees("Mary Smith", 110, "Project Manager", 15000, "New Projects")
 
 
 if __name__ == "__main__" :
