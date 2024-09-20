@@ -25,7 +25,13 @@ word_index_dict = {
 sample_review_1 = [19, 38, 60, 23, 54, 4, 49, 36]
 
 
-
+def check_prime(x):
+  for i in range(2,x):
+    if x % i == 0:
+      return False
+      break
+  else:
+    return True
 
 def first_N_primes(N):
     x = 2
