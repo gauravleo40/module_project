@@ -70,6 +70,7 @@ class Employees:
 
 E001 = Employees("John Doe", 101, "Software Engineer", 8000, "Development")
 E002 = Employees("Mary Smith", 110, "Project Manager", 15000, "New Projects")
+E004 = Employees("Alice Johnson", 112, "Data Analyst", 13000, "Data Science Team")
 
 
 if __name__ == "__main__" :
