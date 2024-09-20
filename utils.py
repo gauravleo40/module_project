@@ -24,7 +24,6 @@ word_index_dict = {
 
 sample_review_1 = [19, 38, 60, 23, 54, 4, 49, 36]
 sample_review_2 = [9, 11, 13, 17, 21, 4, 22]
-sample_review_3 = [99, 45]
 
 def check_prime(x):
   for i in range(2,x):
@@ -70,7 +69,6 @@ class Employees:
 
 E001 = Employees("John Doe", 101, "Software Engineer", 8000, "Development")
 E002 = Employees("Mary Smith", 110, "Project Manager", 15000, "New Projects")
-E004 = Employees("Alice Johnson", 112, "Data Analyst", 13000, "Data Science Team")
 
 
 if __name__ == "__main__" :
