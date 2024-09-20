@@ -24,6 +24,7 @@ word_index_dict = {
 
 sample_review_1 = [19, 38, 60, 23, 54, 4, 49, 36]
 sample_review_2 = [9, 11, 13, 17, 21, 4, 22]
+sample_review_3 = [99, 45, 100]
 
 def check_prime(x):
   for i in range(2,x):
